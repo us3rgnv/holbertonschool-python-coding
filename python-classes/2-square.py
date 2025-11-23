@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""Module that defines a Square class with private size attribute and area method."""
+"""Module that defines a Square class with private size attribute
+and area method.
+"""
 
 
 class Square:
@@ -16,3 +18,4 @@ class Square:
     def area(self):
         """Return the current square area."""
         return self.__size * self.__size
+
